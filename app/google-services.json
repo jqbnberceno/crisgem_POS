@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "190445632116",
+    "firebase_url": "https://crisgem-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "crisgem",
+    "storage_bucket": "crisgem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190445632116:android:78aeb1a49ff9e392f3af21",
+        "android_client_info": {
+          "package_name": "com.example.thesis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190445632116-436iu0hus65g0vh9v2ujl9aj2bbtijor.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFaKgko3jYGu2-5y0-Vv88F__X1L3UNAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190445632116-436iu0hus65g0vh9v2ujl9aj2bbtijor.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

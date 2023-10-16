@@ -1,0 +1,503 @@
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_shade_1">
+
+    <!-- Navigation Bar -->
+    <LinearLayout
+        android:id="@+id/navigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/drinksBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Reserve Orders"
+            android:background="@drawable/rounded_button3"
+            android:textColor="@android:color/black" />
+
+        <Space
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:id="@+id/ReservedOrders"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Reserved Orders"
+            android:background="@drawable/rounded_button3"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/navigationBar"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.2"
+                android:orientation="vertical">
+
+                <!-- Buttons for adding items to the table -->
+
+                <!-- Additional buttons on the right side -->
+                <LinearLayout
+                    android:id="@+id/buttonLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/kwekkwekBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="108dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="Kwek-Kwek"
+                        android:textColor="@android:color/white" />
+
+
+
+                    <Button
+                        android:id="@+id/fishballBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="108dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="Fishball"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/gulamanBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="108dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="Gulaman"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/lemonteaBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="108dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="Lemon Tea"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/gulaman2Btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/gulaman3Btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/gulaman4Btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/lemontea2Btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/lemontea3Btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+
+
+
+
+                </LinearLayout>
+
+                <!-- New buttons below Button 10 aligned to the right -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                <Button
+                        android:id="@+id/friesBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="108dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="Fries"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/hotdogBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="108dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="Hotdog"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/chickenballsBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="108dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="Chicken Balls"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/kikiamBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="108dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="Kikiam"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+                <!-- Additional buttons below Button 10 going to the right -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+
+                <Button
+                        android:id="@+id/cheesestickBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="108dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="Cheesestick"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/dynamiteBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="108dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="Dynamite"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/siomaiBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="108dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="Siomai"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/penoyBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="108dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="Penoy"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                <Button
+                        android:id="@+id/combo1Btn"
+                        android:layout_width="0dp"
+                        android:layout_height="108dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="Fries and Drinks"
+                        android:textColor="@android:color/white" />
+
+
+                    <Button
+                        android:id="@+id/combo2Btn"
+                        android:layout_width="0dp"
+                        android:layout_height="108dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="Fries and Drinks with Hotdog"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/combo3Btn"
+                        android:layout_width="0dp"
+                        android:layout_height="108dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="Fries and Drinks with Cheesestick"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/combo4Btn"
+                        android:layout_width="0dp"
+                        android:layout_height="108dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="Fries and Drinks with Chickenballs"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/scrollView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <TableLayout
+                        android:id="@+id/tableLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+                        <!-- Table rows for displaying orders -->
+                    </TableLayout>
+
+                </ScrollView>
+
+                <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Subtotal: ₱"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/subtotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <Space
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cash Received: ₱"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/cash"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/peso1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:text="₱1"
+                        android:textColor="@android:color/black"
+                        android:background="@drawable/round1" />
+
+                    <Button
+                        android:id="@+id/peso5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:text="₱5"
+                        android:textColor="@android:color/black"
+                        android:background="@drawable/round5" />
+
+                    <Button
+                        android:id="@+id/peso10"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:text="₱10"
+                        android:textColor="@android:color/black"
+                        android:background="@drawable/round10" />
+
+                    <Button
+                        android:id="@+id/peso20"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:text="₱20"
+                        android:textColor="@android:color/black"
+                        android:background="@drawable/round20" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/peso50"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:text="₱50"
+                        android:textColor="@android:color/black"
+                        android:background="@drawable/round50" />
+
+                    <Button
+                        android:id="@+id/peso1h"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:text="₱100"
+                        android:textColor="@android:color/black"
+                        android:background="@drawable/round100" />
+
+                    <Button
+                        android:id="@+id/peso2h"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:text="₱200"
+                        android:textColor="@android:color/black"
+                        android:background="@drawable/round200" />
+
+                    <Button
+                        android:id="@+id/peso5h"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="8dp"
+                    android:text="₱500"
+                    android:textColor="@android:color/black"
+                    android:background="@drawable/round500" />
+
+                    <Button
+                        android:id="@+id/peso1k"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:text="₱1000"
+                        android:textColor="@android:color/black"
+                        android:background="@drawable/round1000" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/clearBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/rounded_button1"
+                    android:text="Clear Order"
+                    android:textColor="@android:color/black" />
+
+                <Button
+                    android:id="@+id/total_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/rounded_green"
+                    android:text="Place Order"
+                    android:textColor="@android:color/black" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

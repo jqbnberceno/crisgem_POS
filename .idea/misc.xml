@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.244" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/drawable/border.xml" value="0.3675" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/drawable/custom_button_back.xml" value="0.217" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/drawable/login_image.xml" value="0.3135" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/drawable/progress_back.xml" value="0.31" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/drawable/round1.xml" value="0.3675" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/drawable/round10.xml" value="0.3675" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/drawable/round100.xml" value="0.3675" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/drawable/round1000.xml" value="0.3675" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/drawable/round20.xml" value="0.3665" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/drawable/round200.xml" value="0.3675" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/drawable/round5.xml" value="0.3675" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/drawable/round50.xml" value="0.3675" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/drawable/round500.xml" value="0.3665" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/drawable/round_but.xml" value="0.3265" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/drawable/round_drawable.xml" value="0.2605" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/drawable/rounded_button.xml" value="0.328" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/drawable/rounded_button1.xml" value="0.327" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/drawable/rounded_button3.xml" value="0.242" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/drawable/rounded_green.xml" value="0.3225" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/drawable/rounded_square_background.xml" value="0.3265" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/drawable/table_header_border.xml" value="0.3675" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/layout/activity_add_product.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/layout/activity_display_orders.xml" value="0.153125" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/layout/activity_edit_product.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/layout/activity_login.xml" value="0.21" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/layout/activity_order_list.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/layout/activity_orders.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/layout/activity_products.xml" value="0.22" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/layout/activity_products_drinks.xml" value="0.22" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/layout/activity_registration.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/layout/activity_reserve.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/layout/activity_welcome_page.xml" value="0.176" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/layout/item_reserved_order.xml" value="0.1828125" />
+        <entry key="..\:/Users/Juaquin/Desktop/thesis/app/src/main/res/layout/order.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
